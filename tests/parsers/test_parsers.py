@@ -123,15 +123,6 @@ def test_parser_gipsyx_residual():
     pass
 
 
-def test_parser_gipsyx_series():
-    """Test that parsing gipsyx_series gives expected output"""
-    parser = get_parser("gipsyx_series").as_dict()
-
-    assert len(parser) == 17
-    assert "north_sigma" in parser
-    assert parser["east_sigma"][0] == 0.000698
-
-
 @pytest.mark.skip(reason="TODO: Tests not yet implemented")
 def test_parser_gipsyx_summary():
     pass
@@ -243,32 +234,6 @@ def test_parser_terrapos_residual():
     assert "residual_code" in parser
     assert "G01" in parser["satellite"]
     assert "G" in parser["system"]
-
-
-def test_parser_timeseries_env():
-    """Test that parsing timeseries_env gives expected output"""
-    parser = get_parser("timeseries_env").as_dict()
-
-    assert len(parser) == 8
-    assert "date" in parser
-    assert "14AUG31" in parser["date"]
-
-
-def test_parser_timeseries_residuals():
-    """Test that parsing timeseries_residuals gives expected output"""
-    parser = get_parser("timeseries_residuals").as_dict()
-
-    assert len(parser) == 5
-    assert "year" in parser
-    assert 0.66 in parser["residual"]
-
-def test_parser_timeseries_tsview():
-    """Test that parsing timeseries_tsview gives expected output"""
-    parser = get_parser("timeseries_tsview").as_dict()
-
-    assert len(parser) == 4
-    assert "mjd" in parser
-    assert 51058.5 in parser["mjd"]
 
 
 def test_parser_vlbi_source_names():

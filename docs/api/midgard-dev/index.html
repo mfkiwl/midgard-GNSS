@@ -8,128 +8,115 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>midgard.dev - Midgard v1.1.1</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <title>midgard.dev - Midgard v1.1.3</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../..">Midgard v1.1.1</a>
-                </div>
+                <a class="navbar-brand" href="../..">Midgard v1.1.3</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../..">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How-to <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How-to <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../howto/testing/">Testing</a>
+<li>
+    <a href="../../howto/testing/" class="dropdown-item">Testing</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../midgard/">midgard</a>
+<li>
+    <a href="../midgard/" class="dropdown-item">midgard</a>
 </li>
                                     
-<li >
-    <a href="../midgard-collections/">midgard.collections</a>
+<li>
+    <a href="../midgard-collections/" class="dropdown-item">midgard.collections</a>
 </li>
                                     
-<li >
-    <a href="../midgard-config/">midgard.config</a>
+<li>
+    <a href="../midgard-config/" class="dropdown-item">midgard.config</a>
 </li>
                                     
-<li >
-    <a href="../midgard-data/">midgard.data</a>
+<li>
+    <a href="../midgard-data/" class="dropdown-item">midgard.data</a>
 </li>
                                     
-<li class="active">
-    <a href="./">midgard.dev</a>
+<li>
+    <a href="./" class="dropdown-item active">midgard.dev</a>
 </li>
                                     
-<li >
-    <a href="../midgard-files/">midgard.files</a>
+<li>
+    <a href="../midgard-files/" class="dropdown-item">midgard.files</a>
 </li>
                                     
-<li >
-    <a href="../midgard-gnss/">midgard.gnss</a>
+<li>
+    <a href="../midgard-gnss/" class="dropdown-item">midgard.gnss</a>
 </li>
                                     
-<li >
-    <a href="../midgard-ionosphere/">midgard.ionosphere</a>
+<li>
+    <a href="../midgard-ionosphere/" class="dropdown-item">midgard.ionosphere</a>
 </li>
                                     
-<li >
-    <a href="../midgard-math/">midgard.math</a>
+<li>
+    <a href="../midgard-math/" class="dropdown-item">midgard.math</a>
 </li>
                                     
-<li >
-    <a href="../midgard-parsers/">midgard.parsers</a>
+<li>
+    <a href="../midgard-parsers/" class="dropdown-item">midgard.parsers</a>
 </li>
                                     
-<li >
-    <a href="../midgard-plot/">midgard.plot</a>
+<li>
+    <a href="../midgard-plot/" class="dropdown-item">midgard.plot</a>
 </li>
                                     
-<li >
-    <a href="../midgard-site_info/">midgard.site_info</a>
+<li>
+    <a href="../midgard-site_info/" class="dropdown-item">midgard.site_info</a>
 </li>
                                     
-<li >
-    <a href="../midgard-writers/">midgard.writers</a>
+<li>
+    <a href="../midgard-writers/" class="dropdown-item">midgard.writers</a>
 </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../midgard-data/">
+                            <li class="nav-item">
+                                <a rel="prev" href="../midgard-data/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../midgard-files/">
+                            <li class="nav-item">
+                                <a rel="next" href="../midgard-files/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -139,87 +126,60 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#midgarddev">midgard.dev</a></li>
-            <li><a href="#midgarddev__marked_for_deletion_cache">midgard.dev.__marked_for_deletion_cache</a></li>
-            <li><a href="#midgarddev__marked_for_deletion_optional">midgard.dev.__marked_for_deletion_optional</a></li>
-            <li><a href="#midgarddevconsole">midgard.dev.console</a></li>
-            <li><a href="#midgarddevexceptions">midgard.dev.exceptions</a></li>
-            <li><a href="#midgarddevlibrary">midgard.dev.library</a></li>
-            <li><a href="#midgarddevlog">midgard.dev.log</a></li>
-            <li><a href="#midgarddevplugins">midgard.dev.plugins</a></li>
-            <li><a href="#midgarddevprofiler">midgard.dev.profiler</a></li>
-            <li><a href="#midgarddevtimer">midgard.dev.timer</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#midgarddev" class="nav-link">midgard.dev</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#midgarddevconsole" class="nav-link">midgard.dev.console</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevexceptions" class="nav-link">midgard.dev.exceptions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevlibrary" class="nav-link">midgard.dev.library</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevlog" class="nav-link">midgard.dev.log</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevplugins" class="nav-link">midgard.dev.plugins</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevprofiler" class="nav-link">midgard.dev.profiler</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevtimer" class="nav-link">midgard.dev.timer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#midgarddevutil" class="nav-link">midgard.dev.util</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="midgarddev">midgard.dev</h1>
-<h2 id="midgarddev__marked_for_deletion_cache">midgard.dev.__marked_for_deletion_cache</h2>
-<p>Midgard library module for caching</p>
-<p><strong>Description:</strong></p>
-<p>Adds caching to properties on classes, using the recipe explained in Python
-Cookbook, 3rd ed. Recipe 8.10.</p>
-<p>Also, adds a cached property that may depend on other data, with the
-possibility to reset the cache if the dependencies change.</p>
-<h3 id="dependent_property"><strong>dependent_property</strong></h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_cache.dependent_property</code></p>
-<p>Signature: <code>()</code></p>
-<p>Decorator for cached properties that can be reset when dependencies change</p>
-<h3 id="forget_dependent_values"><strong>forget_dependent_values</strong>()</h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_cache.forget_dependent_values</code></p>
-<p>Signature: <code>(obj:object, *dependencies:str) -&gt; None</code></p>
-<p>Reset cache when given dependencies change</p>
-<h3 id="property"><strong>property</strong></h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_cache.property</code></p>
-<p>Signature: <code>(fget:Callable) -&gt; None</code></p>
-<p>Cached property, see Python Cookbook, 3rd ed. Recipe 8.10.</p>
-<h3 id="register_dependencies"><strong>register_dependencies</strong></h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_cache.register_dependencies</code></p>
-<p>Signature: <code>()</code></p>
-<p>Metaclass for registering dependencies using dot notation</p>
-<h2 id="midgarddev__marked_for_deletion_optional">midgard.dev.__marked_for_deletion_optional</h2>
-<p>Midgard library module for handling optional dependencies</p>
-<p><strong>Description:</strong></p>
-<p>Import dependencies that are only necessary for specific parts of Midgard. Using this module will delay raising an
-ImportError until the dependency is actually used. This means that if one for instance only wants to run a GNSS
-analysis (or only use a Rinex-parser) installing special libraries only used for VLBI is not necessary.</p>
-<p><strong>Examples:</strong></p>
-<p>The optional import is typically used as follows::</p>
-<pre><code>from midgard.lib import optional
-netCDF4 = optional.optional_import('netCDF4')
-</code></pre>
-<p>Delete this?</p>
-<h3 id="emptystringmock"><strong>EmptyStringMock</strong></h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_optional.EmptyStringMock</code></p>
-<p>Signature: <code>(name:str, raise_error:bool=True, attrs:Union[Dict[str, Any], NoneType]=None, error_msg:Union[str, NoneType]=None) -&gt; None</code></p>
-<p>A mock object whose properties are all empty strings</p>
-<h3 id="simplemock"><strong>SimpleMock</strong></h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_optional.SimpleMock</code></p>
-<p>Signature: <code>(name:str, raise_error:bool=True, attrs:Union[Dict[str, Any], NoneType]=None, error_msg:Union[str, NoneType]=None) -&gt; None</code></p>
-<p>Class that can stand in for any other object</p>
-<p>The SimpleMock is used to stand in for any library that can not be imported. The mock object simply returns itself
-whenever it is called, or any attributes are looked up on the object. This is done, to avoid ImportErrors when a
-library is imported, but never used (for instance if a plugin is loaded but never called).</p>
-<p>Instead the ImportError is raised when the SimpleMock is used in any way. The ImportError will only be raised once
-for any SimpleMock-object (which is only important if the ImportError is caught and the program carries on).</p>
-<p>The exception is if any attributes (<code>attrs</code>) are explicitly defined on the mock. No exception is raised if those
-attributes are looked up.</p>
-<h3 id="optional_import"><strong>optional_import</strong>()</h3>
-<p>Full name: <code>midgard.dev.__marked_for_deletion_optional.optional_import</code></p>
-<p>Signature: <code>(module_name:str, raise_error:bool=True, mock_cls:type=&lt;class 'midgard.dev.__marked_for_deletion_optional.SimpleMock'&gt;, attrs:Union[Dict[str, Any], NoneType]=None) -&gt; Union[Any, midgard.dev.__marked_for_deletion_optional.SimpleMock]</code></p>
-<p>Try to import an optional module</p>
-<p>If the module does not exist, a SimpleMock-object is returned instead. If this SimpleMock-object is later used, an
-ImportError will be raised then (if <code>raise_error</code> is True, which is default).</p>
-<p><strong>Args:</strong></p>
-<ul>
-<li><code>module_name</code>:   Name of module to import.</li>
-<li><code>raise_error</code>:   Whether an ImportError should be raised if the module does not exist, but is used.</li>
-<li><code>attrs</code>:         Attributes that should be added to the SimpleMock used if the module does not exist.</li>
-</ul>
-<p><strong>Returns:</strong></p>
-<p>Imported module object, or a SimpleMock-object if the module can not be imported.</p>
 <h2 id="midgarddevconsole">midgard.dev.console</h2>
 <p>Simpler dealing with the console</p>
 <p><strong>Description:</strong></p>
@@ -250,7 +210,7 @@ I am YELLOW text on a BLUE background!
 <p>The width of the console in characters.</p>
 <h3 id="dedent"><strong>dedent</strong>()</h3>
 <p>Full name: <code>midgard.dev.console.dedent</code></p>
-<p>Signature: <code>(text:str, num_spaces:Union[int, NoneType]=None) -&gt; str</code></p>
+<p>Signature: <code>(text: str, num_spaces: Union[int, NoneType] = None) -&gt; str</code></p>
 <p>Wrapper around textwrap.dedent</p>
 <p>Dedents at most num_spaces. If num_spaces is not specified, dedents as much as possible.</p>
 <p><strong>Args:</strong></p>
@@ -262,7 +222,7 @@ I am YELLOW text on a BLUE background!
 <p>Dedented string.</p>
 <h3 id="fill"><strong>fill</strong>()</h3>
 <p>Full name: <code>midgard.dev.console.fill</code></p>
-<p>Signature: <code>(text:str, *, width:Union[int, NoneType]=None, hanging:Union[int, NoneType]=None, **tw_args:Any) -&gt; str</code></p>
+<p>Signature: <code>(text: str, *, width: Union[int, NoneType] = None, hanging: Union[int, NoneType] = None, **tw_args: Any) -&gt; str</code></p>
 <p>Wrapper around textwrap.fill</p>
 <p>The <code>tw_args</code> are passed on to textwrap.fill. See textwrap.TextWrapper for available keyword arguments.</p>
 <p>The default value for <code>width</code> is console.columns(), while the new argument <code>hanging</code>, if defined, will try
@@ -279,7 +239,7 @@ indent (no indent on the first line) of <code>hanging</code> spaces.</p>
 <p>Wrapped string.</p>
 <h3 id="indent"><strong>indent</strong>()</h3>
 <p>Full name: <code>midgard.dev.console.indent</code></p>
-<p>Signature: <code>(text:str, num_spaces:int, **tw_args:Any) -&gt; str</code></p>
+<p>Signature: <code>(text: str, num_spaces: int, **tw_args: Any) -&gt; str</code></p>
 <p>Wrapper around textwrap.indent</p>
 <p>The <code>tw_args</code> are passed on to textwrap.indent.</p>
 <p><strong>Args:</strong></p>
@@ -297,7 +257,7 @@ indent (no indent on the first line) of <code>hanging</code> spaces.</p>
 <p>The heigth of the console in characters.</p>
 <h3 id="num_leading_spaces"><strong>num_leading_spaces</strong>()</h3>
 <p>Full name: <code>midgard.dev.console.num_leading_spaces</code></p>
-<p>Signature: <code>(text:str, space_char:str=' ') -&gt; int</code></p>
+<p>Signature: <code>(text: str, space_char: str = ' ') -&gt; int</code></p>
 <p>Count number of leading spaces in a string</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -308,7 +268,7 @@ indent (no indent on the first line) of <code>hanging</code> spaces.</p>
 <p>Number of leading spaces.</p>
 <h3 id="progress_bar"><strong>progress_bar</strong>()</h3>
 <p>Full name: <code>midgard.dev.console.progress_bar</code></p>
-<p>Signature: <code>(iteration:int, total:int, prefix:str='')</code></p>
+<p>Signature: <code>(iteration: int, total: int, prefix: str = '')</code></p>
 <p>Call in a loop to create terminal progress bar</p>
 <p><strong>Args:</strong></p>
 <p>iteration    current iteration
@@ -382,7 +342,7 @@ prefix       prefix string</p>
 mock is used for anything, a warning will be printed. This is done to avoid
 dependencies to all the C/C++-libraries for Python programs only using some of
 them.</p>
-<h3 id="simplemock_1"><strong>SimpleMock</strong></h3>
+<h3 id="simplemock"><strong>SimpleMock</strong></h3>
 <p>Full name: <code>midgard.dev.library.SimpleMock</code></p>
 <p>Signature: <code>(name, raise_error=True)</code></p>
 <p>Class that can stand in for any other object</p>
@@ -489,11 +449,11 @@ INFO  [My prefix] Calculating the inverse of a  5x3  matrix
 </code></pre>
 <h3 id="consolelogger"><strong>ConsoleLogger</strong></h3>
 <p>Full name: <code>midgard.dev.log.ConsoleLogger</code></p>
-<p>Signature: <code>(log_level:Union[str, NoneType]=None, prefix:str='', use_command_line:bool=True) -&gt; None</code></p>
+<p>Signature: <code>(log_level: Union[str, NoneType] = None, prefix: str = '', use_command_line: bool = True) -&gt; None</code></p>
 <p>Log to the console, the log level can also be set using command line parameters</p>
 <h3 id="filelogger"><strong>FileLogger</strong></h3>
 <p>Full name: <code>midgard.dev.log.FileLogger</code></p>
-<p>Signature: <code>(file_path:Union[str, pathlib.Path], log_level:Union[str, NoneType]=None, prefix:str='', rotation:Union[int, NoneType]=None) -&gt; None</code></p>
+<p>Signature: <code>(file_path: Union[str, pathlib.Path], log_level: Union[str, NoneType] = None, prefix: str = '', rotation: Union[int, NoneType] = None) -&gt; None</code></p>
 <p>Log to a file, the log files can be rotated so that older files are kept</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -506,11 +466,11 @@ INFO  [My prefix] Calculating the inverse of a  5x3  matrix
 </ul>
 <h3 id="logger"><strong>Logger</strong></h3>
 <p>Full name: <code>midgard.dev.log.Logger</code></p>
-<p>Signature: <code>(log_level:Union[str, NoneType]=None, prefix:str='')</code></p>
+<p>Signature: <code>(log_level: Union[str, NoneType] = None, prefix: str = '')</code></p>
 <p>Abstract class that can be specialized to create new loggers</p>
 <h3 id="all"><strong>all</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.all</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='all') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'all') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="blank"><strong>blank</strong>()</h3>
@@ -519,22 +479,22 @@ of the given arguments and keywords.</p>
 <p>Log blank line</p>
 <h3 id="debug"><strong>debug</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.debug</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='debug') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'debug') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="error"><strong>error</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.error</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='error') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'error') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="fatal"><strong>fatal</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.fatal</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='fatal') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'fatal') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="file_init"><strong>file_init</strong></h3>
 <p>Full name: <code>midgard.dev.log.file_init</code></p>
-<p>Signature: <code>(file_path:Union[str, pathlib.Path], log_level:Union[str, NoneType]=None, prefix:str='', rotation:Union[int, NoneType]=None) -&gt; None</code></p>
+<p>Signature: <code>(file_path: Union[str, pathlib.Path], log_level: Union[str, NoneType] = None, prefix: str = '', rotation: Union[int, NoneType] = None) -&gt; None</code></p>
 <p>Log to a file, the log files can be rotated so that older files are kept</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -547,29 +507,29 @@ of the given arguments and keywords.</p>
 </ul>
 <h3 id="info"><strong>info</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.info</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='info') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'info') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="init"><strong>init</strong></h3>
 <p>Full name: <code>midgard.dev.log.init</code></p>
-<p>Signature: <code>(log_level:Union[str, NoneType]=None, prefix:str='', use_command_line:bool=True) -&gt; None</code></p>
+<p>Signature: <code>(log_level: Union[str, NoneType] = None, prefix: str = '', use_command_line: bool = True) -&gt; None</code></p>
 <p>Log to the console, the log level can also be set using command line parameters</p>
 <h3 id="log"><strong>log</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.log</code></p>
-<p>Signature: <code>(log_text:str, level:str) -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, level: str) -&gt; None</code></p>
 <p>Log text at the given level</p>
 <h3 id="none"><strong>none</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.none</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='none') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'none') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h3 id="print_file"><strong>print_file</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.print_file</code></p>
-<p>Signature: <code>(log_path:Union[str, pathlib.Path], log_level:str='info', print_func:Callable[[str], NoneType]=&lt;built-in function print&gt;) -&gt; None</code></p>
+<p>Signature: <code>(log_path: Union[str, pathlib.Path], log_level: str = 'info', print_func: Callable[[str], NoneType] = &lt;built-in function print&gt;) -&gt; None</code></p>
 <p>Print a log file with colors, stripping away any item below log_level</p>
 <h3 id="warn"><strong>warn</strong>()</h3>
 <p>Full name: <code>midgard.dev.log.warn</code></p>
-<p>Signature: <code>(log_text:str, *, level:str='warn') -&gt; None</code></p>
+<p>Signature: <code>(log_text: str, *, level: str = 'warn') -&gt; None</code></p>
 <p>partial(func, <em>args, </em>*keywords) - new function with partial application
 of the given arguments and keywords.</p>
 <h2 id="midgarddevplugins">midgard.dev.plugins</h2>
@@ -630,7 +590,7 @@ using the <code>part</code> optional parameter to <code>call_one</code>:</p>
 </code></pre>
 <h3 id="plugin"><strong>Plugin</strong></h3>
 <p>Full name: <code>midgard.dev.plugins.Plugin</code></p>
-<p>Signature: <code>(name:str, function:Callable, file_path:pathlib.Path, sort_value:int)</code></p>
+<p>Signature: <code>(name: str, function: Callable, file_path: pathlib.Path, sort_value: int)</code></p>
 <p>Information about a plug-in</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -641,7 +601,7 @@ using the <code>part</code> optional parameter to <code>call_one</code>:</p>
 </ul>
 <h3 id="add_alias"><strong>add_alias</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.add_alias</code></p>
-<p>Signature: <code>(package_name:str, alias:str) -&gt; None</code></p>
+<p>Signature: <code>(package_name: str, alias: str) -&gt; None</code></p>
 <p>Add alias to plug-in package</p>
 <p>This allows one package of plug-ins to be spread over several directories</p>
 <p><strong>Args:</strong></p>
@@ -651,7 +611,7 @@ using the <code>part</code> optional parameter to <code>call_one</code>:</p>
 </ul>
 <h3 id="call"><strong>call</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.call</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, part:Union[str, NoneType]=None, prefix:Union[str, NoneType]=None, plugin_logger:Union[Callable[[str], NoneType], NoneType]=None, **plugin_args:Any) -&gt; Any</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, part: Union[str, NoneType] = None, prefix: Union[str, NoneType] = None, plugin_logger: Union[Callable[[str], NoneType], NoneType] = None, **plugin_args: Any) -&gt; Any</code></p>
 <p>Call one plug-in</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -666,7 +626,7 @@ using the <code>part</code> optional parameter to <code>call_one</code>:</p>
 <p>Return value of the plug-in.</p>
 <h3 id="call_all"><strong>call_all</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.call_all</code></p>
-<p>Signature: <code>(package_name:str, plugins:Union[List[str], NoneType]=None, part:Union[str, NoneType]=None, prefix:Union[str, NoneType]=None, plugin_logger:Union[Callable[[str], NoneType], NoneType]=None, **plugin_args:Any) -&gt; Dict[str, Any]</code></p>
+<p>Signature: <code>(package_name: str, plugins: Union[List[str], NoneType] = None, part: Union[str, NoneType] = None, prefix: Union[str, NoneType] = None, plugin_logger: Union[Callable[[str], NoneType], NoneType] = None, **plugin_args: Any) -&gt; Dict[str, Any]</code></p>
 <p>Call all plug-ins in a package</p>
 <p>If <code>plugins</code> is given, it should be a list of names of plug-ins.  If a
 plug-in listed in the <code>plugins</code>-list or in the config file does not exist,
@@ -686,7 +646,7 @@ however, that this will import all python files in the package.</p>
 <p>Dictionary of all results from the plug-ins.</p>
 <h3 id="doc"><strong>doc</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.doc</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, part:Union[str, NoneType]=None, prefix:Union[str, NoneType]=None, long_doc:bool=True, include_details:bool=False, use_module:bool=False) -&gt; str</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, part: Union[str, NoneType] = None, prefix: Union[str, NoneType] = None, long_doc: bool = True, include_details: bool = False, use_module: bool = False) -&gt; str</code></p>
 <p>Document one plug-in</p>
 <p>If the plug-in is not part of the package an UnknownPluginError is raised.</p>
 <p>If there are several functions registered in a plug-in and <code>part</code> is not
@@ -706,7 +666,7 @@ documented.</p>
 <p>Documentation of the plug-in.</p>
 <h3 id="doc_all"><strong>doc_all</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.doc_all</code></p>
-<p>Signature: <code>(package_name:str, plugins:Union[Iterable[str], NoneType]=None, prefix:Union[str, NoneType]=None, long_doc:bool=True, include_details:bool=False, use_module:bool=False) -&gt; Dict[str, str]</code></p>
+<p>Signature: <code>(package_name: str, plugins: Union[Iterable[str], NoneType] = None, prefix: Union[str, NoneType] = None, long_doc: bool = True, include_details: bool = False, use_module: bool = False) -&gt; Dict[str, str]</code></p>
 <p>Call all plug-ins in a package</p>
 <p>If <code>plugins</code> is given, it should be a list of names of plug-ins. If a
 plug-in listed in the <code>plugins</code>-list does not exist, an UnknownPluginError
@@ -726,7 +686,7 @@ however, that this will import all python files in the package.</p>
 <p>Dictionary of all doc-strings from the plug-ins.</p>
 <h3 id="exists"><strong>exists</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.exists</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str) -&gt; bool</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str) -&gt; bool</code></p>
 <p>Check whether or not a plug-in exists in a package</p>
 <p>Tries to import the given plug-in.</p>
 <p><strong>Args:</strong></p>
@@ -738,7 +698,7 @@ however, that this will import all python files in the package.</p>
 <p>True if plug-in exists, False otherwise.</p>
 <h3 id="get"><strong>get</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.get</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, part:Union[str, NoneType]=None, prefix:Union[str, NoneType]=None) -&gt; midgard.dev.plugins.Plugin</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, part: Union[str, NoneType] = None, prefix: Union[str, NoneType] = None) -&gt; midgard.dev.plugins.Plugin</code></p>
 <p>Get a specific plugin-object</p>
 <p>If the plug-in is not part of the package an UnknownPluginError is raised.</p>
 <p>If there are several functions registered in a plug-in and <code>part</code> is not
@@ -755,7 +715,7 @@ called.</p>
 <p>Plugin-namedtuple representing the plug-in.</p>
 <h3 id="load"><strong>load</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.load</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, prefix:Union[str, NoneType]=None) -&gt; str</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, prefix: Union[str, NoneType] = None) -&gt; str</code></p>
 <p>Load one plug-in from a package</p>
 <p>First tries to load the plugin with the given name. If that fails, it tries
 to load {prefix}_{plugin_name} instead.</p>
@@ -769,7 +729,7 @@ to load {prefix}_{plugin_name} instead.</p>
 <p>Actual name of plug-in (with or without prefix).</p>
 <h3 id="names"><strong>names</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.names</code></p>
-<p>Signature: <code>(package_name:str, plugins:Union[Iterable[str], NoneType]=None, prefix:Union[str, NoneType]=None) -&gt; List[str]</code></p>
+<p>Signature: <code>(package_name: str, plugins: Union[Iterable[str], NoneType] = None, prefix: Union[str, NoneType] = None) -&gt; List[str]</code></p>
 <p>List plug-ins in a package</p>
 <p>If <code>plugins</code> is given, it should be a list of names of plug-ins.  If a
 plug-in listed in the <code>plugins</code>-list does not exist, an UnknownPluginError
@@ -786,7 +746,7 @@ however, that this will import all python files in the package.</p>
 <p>List of strings with names of plug-ins.</p>
 <h3 id="parts"><strong>parts</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.parts</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, prefix:Union[str, NoneType]=None) -&gt; List[str]</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, prefix: Union[str, NoneType] = None) -&gt; List[str]</code></p>
 <p>List all parts of one plug-in</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -800,7 +760,7 @@ however, that this will import all python files in the package.</p>
 </ul>
 <h3 id="register"><strong>register</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.register</code></p>
-<p>Signature: <code>(func:Callable, name:Union[str, NoneType]=None, sort_value:int=0) -&gt; Callable</code></p>
+<p>Signature: <code>(func: Callable, name: Union[str, NoneType] = None, sort_value: int = 0) -&gt; Callable</code></p>
 <p>Decorator used to register a plug-in</p>
 <p>Plug-ins are registered based on the name of the module (file) they are
 defined in, as well as the package (directory) which contains
@@ -822,7 +782,7 @@ files (see for instance how <code>session</code> is used in <code>midgard.pipeli
 <p>The function that is being registered.</p>
 <h3 id="register_named"><strong>register_named</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.register_named</code></p>
-<p>Signature: <code>(name:str) -&gt; Callable</code></p>
+<p>Signature: <code>(name: str) -&gt; Callable</code></p>
 <p>Decorator used to register a named plug-in</p>
 <p>This allows for overriding the name used to register the plug-in. See
 <code>register</code> for more details.</p>
@@ -834,7 +794,7 @@ files (see for instance how <code>session</code> is used in <code>midgard.pipeli
 <p>Decorator that registers a named function.</p>
 <h3 id="register_ordered"><strong>register_ordered</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.register_ordered</code></p>
-<p>Signature: <code>(sort_value:int) -&gt; Callable</code></p>
+<p>Signature: <code>(sort_value: int) -&gt; Callable</code></p>
 <p>Decorator used to register a plug-in with a specific sort order</p>
 <p>The sort value should be a number. Lower numbers are sorted first, higher
 numbers last. Plug-ins without an explicit sort_order gets the sort value
@@ -847,7 +807,7 @@ of 0.</p>
 <p>Decorator that registers an ordered function.</p>
 <h3 id="signature"><strong>signature</strong>()</h3>
 <p>Full name: <code>midgard.dev.plugins.signature</code></p>
-<p>Signature: <code>(package_name:str, plugin_name:str, part:Union[str, NoneType]=None, prefix:Union[str, NoneType]=None) -&gt; inspect.Signature</code></p>
+<p>Signature: <code>(package_name: str, plugin_name: str, part: Union[str, NoneType] = None, prefix: Union[str, NoneType] = None) -&gt; inspect.Signature</code></p>
 <p>Get signature of a plug-in</p>
 <p>If the plug-in is not part of the package an UnknownPluginError is raised.</p>
 <p>If there are several functions registered in a plug-in and <code>part</code> is not
@@ -916,11 +876,145 @@ optional parameters, including the text to report when the timer ends and which
 logger is used to report the timing. See <code>Timer.__init__</code> for more details.</p>
 <h3 id="accumulatedtimer"><strong>AccumulatedTimer</strong></h3>
 <p>Full name: <code>midgard.dev.timer.AccumulatedTimer</code></p>
-<p>Signature: <code>(text:str='Elapsed time:', fmt:str='.4f', logger:Union[Callable[[str], NoneType], NoneType]=functools.partial(&lt;function log at 0x7fade17fa0d0&gt;, level='info')) -&gt; None</code></p>
+<p>Signature: <code>(text: str = 'Elapsed time:', fmt: str = '.4f', logger: Union[Callable[[str], NoneType], NoneType] = functools.partial(&lt;function log at 0x7fa9957b3dc0&gt;, level='info')) -&gt; None</code></p>
 <h3 id="timer"><strong>Timer</strong></h3>
 <p>Full name: <code>midgard.dev.timer.Timer</code></p>
-<p>Signature: <code>(text:str='Elapsed time:', fmt:str='.4f', logger:Union[Callable[[str], NoneType], NoneType]=functools.partial(&lt;function log at 0x7fade17fa0d0&gt;, level='info')) -&gt; None</code></p>
-<p>Class for timing running time of functions and code blocks.</p></div>
+<p>Signature: <code>(text: str = 'Elapsed time:', fmt: str = '.4f', logger: Union[Callable[[str], NoneType], NoneType] = functools.partial(&lt;function log at 0x7fa9957b3dc0&gt;, level='info')) -&gt; None</code></p>
+<p>Class for timing running time of functions and code blocks.</p>
+<h2 id="midgarddevutil">midgard.dev.util</h2>
+<p>Midgard library module with utility functions for easier script development</p>
+<p>Example:
+from midgard.dev import util
+directory, date = util.parse_args('string', 'date')</p>
+<p>Description:</p>
+<p>This module provides the boilerplate code necessary for starting a script. In particular handling of command line 
+arguments and default options including --help are done.</p>
+<h3 id="command-str">COMMAND (str)</h3>
+<p><code>COMMAND = 'generate_api '</code></p>
+<h3 id="check_help_and_version"><strong>check_help_and_version</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.check_help_and_version</code></p>
+<p>Signature: <code>(module: str, doc_module: str = None, replace_vars: Dict[str, str] = {}) -&gt; None</code></p>
+<p>Show help or version if asked for</p>
+<p>Show the help message parsed from the script's docstring if -h or --help option is given. Show the script's version
+if --version is given.</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>module</code>:       Module name.</li>
+<li><code>doc_module</code>:   Module containing help text.</li>
+<li><code>replace_vars</code>: Dictionary with variable for replacement in docstring</li>
+</ul>
+<h3 id="check_options"><strong>check_options</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.check_options</code></p>
+<p>Signature: <code>(*options: Tuple[str]) -&gt; str</code></p>
+<p>Check if any of a list of options is specified on the command line</p>
+<p>Returns the actual option that is specified. The first option specified on the command line is returned if there
+are several matches. Returns the empty string if no option is specified. This means that this method works fine
+also in a boolean context, for example</p>
+<pre><code>if check_options('-F', '--force'):
+    do_something()
+</code></pre>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>options</code>:   Strings specifying which options to check for, including '-'-prefix.</li>
+</ul>
+<p><strong>Returns:</strong></p>
+<ul>
+<li><code>String</code>: Option that is specified, blank string if no option is specified</li>
+</ul>
+<h3 id="get_callers"><strong>get_callers</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.get_callers</code></p>
+<p>Signature: <code>() -&gt; str</code></p>
+<p>Get a list of methods calling this function</p>
+<p><strong>Returns:</strong></p>
+<p>Lists all methods calling the function</p>
+<h3 id="get_pid_and_server"><strong>get_pid_and_server</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.get_pid_and_server</code></p>
+<p>Signature: <code>() -&gt; str</code></p>
+<p>Find process id and name of server the analysis is running on</p>
+<p>Use the platform.uname to find servername instead of os.uname because the latter is not supported on Windows.</p>
+<p><strong>Returns:</strong></p>
+<p>Process id and name of server</p>
+<h3 id="get_program_info"><strong>get_program_info</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.get_program_info</code></p>
+<p>Signature: <code>(module: str) -&gt; str</code></p>
+<p>Get the name and the version of the running program</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>module</code>: Module name.</li>
+</ul>
+<p><strong>Returns:</strong></p>
+<p>Program name and version</p>
+<h3 id="get_program_name"><strong>get_program_name</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.get_program_name</code></p>
+<p>Signature: <code>() -&gt; str</code></p>
+<p>Get the name of the running program</p>
+<p><strong>Returns:</strong></p>
+<p>String trying to be similar to how the user called the program.</p>
+<h3 id="get_python_version"><strong>get_python_version</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.get_python_version</code></p>
+<p>Signature: <code>() -&gt; str</code></p>
+<p>Find python version used</p>
+<p><strong>Returns:</strong></p>
+<p>Name of executable and version number</p>
+<h3 id="no_traceback"><strong>no_traceback</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.no_traceback</code></p>
+<p>Signature: <code>(func)</code></p>
+<p>Decorator for turning off traceback, instead printing a simple error message</p>
+<p>Use the option --show_tb to show the traceback anyway.</p>
+<h3 id="not_implemented"><strong>not_implemented</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.not_implemented</code></p>
+<p>Signature: <code>() -&gt; None</code></p>
+<p>A placeholder for functions that are not implemented yet</p>
+<p>A note about the missing implementation is written to the log.</p>
+<h3 id="options2args"><strong>options2args</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.options2args</code></p>
+<p>Signature: <code>(options: List[str]) -&gt; Union[List[str], Dict[str, str]]</code></p>
+<p>Convert a list of command line options to a args and kwargs </p>
+<p>The options should be specified as a string with the necessary - or -- in front and options with a value should
+by separated by = (e.g. --station=stas).</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>options</code>: List with options</li>
+</ul>
+<p><strong>Returns:</strong></p>
+<p>Tuple with non-keyword arguments and with keyword arguments</p>
+<h3 id="parse_args"><strong>parse_args</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.parse_args</code></p>
+<p>Signature: <code>(*param_types: Tuple[str], doc_module: str = None) -&gt; Union[Any, List[Any]]</code></p>
+<p>Parse command line arguments and general options</p>
+<p>Parse arguments from the given parameter types.</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>param_types</code>: Strings describing the expected parameter types. Each string must be one of the keys in #_PARSERS.</li>
+<li><code>doc_module</code>:  Module containing help text.</li>
+</ul>
+<p><strong>Returns:</strong></p>
+<p>List of command line arguments parsed according to param_types.</p>
+<h3 id="read_option_value"><strong>read_option_value</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.read_option_value</code></p>
+<p>Signature: <code>(option: str, default: str = '') -&gt; str</code></p>
+<p>Read the value of one command line option</p>
+<p>The option should be specified as a string with the necessary - or -- in front. If that option is not one of the
+command line arguments, default is returned. If there is a value following the option that value is returned as a
+string (separated by =). If there are several occurences of the option, the first one is returned.</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>option</code>:    Option specified with the leading - or --.</li>
+<li><code>default</code>:   Optional default value that is returned if the option is not specified.</li>
+</ul>
+<p><strong>Returns:</strong></p>
+<p>The option or the value of the option. The default value if the option is not specified.</p>
+<h3 id="write_requirements"><strong>write_requirements</strong>()</h3>
+<p>Full name: <code>midgard.dev.util.write_requirements</code></p>
+<p>Signature: <code>(file_path: Union[str, pathlib.Path]) -&gt; None</code></p>
+<p>Write requirements (python modules) to file for reproducibility.</p>
+<p>Note that this only stores the modules that have been imported, and that have a <code>__version__</code>-attribute (see PEP
+396 - https://www.python.org/dev/peps/pep-0396/)</p>
+<p><strong>Args:</strong></p>
+<ul>
+<li><code>file_path</code>: File path.</li>
+</ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -934,21 +1028,21 @@ logger is used to report the timing. See <code>Timer.__init__</code> for more de
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -957,12 +1051,12 @@ logger is used to report the timing. See <code>Timer.__init__</code> for more de
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">

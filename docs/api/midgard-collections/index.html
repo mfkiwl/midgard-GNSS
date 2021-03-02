@@ -8,128 +8,115 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>midgard.collections - Midgard v1.1.1</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <title>midgard.collections - Midgard v1.1.3</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/docco.min.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="../..">Midgard v1.1.1</a>
-                </div>
+                <a class="navbar-brand" href="../..">Midgard v1.1.3</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="../..">Home</a>
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">How-to <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">How-to <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../../howto/testing/">Testing</a>
+<li>
+    <a href="../../howto/testing/" class="dropdown-item">Testing</a>
 </li>
                                 </ul>
                             </li>
                             <li class="dropdown active">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
-<li >
-    <a href="../midgard/">midgard</a>
+<li>
+    <a href="../midgard/" class="dropdown-item">midgard</a>
 </li>
                                     
-<li class="active">
-    <a href="./">midgard.collections</a>
+<li>
+    <a href="./" class="dropdown-item active">midgard.collections</a>
 </li>
                                     
-<li >
-    <a href="../midgard-config/">midgard.config</a>
+<li>
+    <a href="../midgard-config/" class="dropdown-item">midgard.config</a>
 </li>
                                     
-<li >
-    <a href="../midgard-data/">midgard.data</a>
+<li>
+    <a href="../midgard-data/" class="dropdown-item">midgard.data</a>
 </li>
                                     
-<li >
-    <a href="../midgard-dev/">midgard.dev</a>
+<li>
+    <a href="../midgard-dev/" class="dropdown-item">midgard.dev</a>
 </li>
                                     
-<li >
-    <a href="../midgard-files/">midgard.files</a>
+<li>
+    <a href="../midgard-files/" class="dropdown-item">midgard.files</a>
 </li>
                                     
-<li >
-    <a href="../midgard-gnss/">midgard.gnss</a>
+<li>
+    <a href="../midgard-gnss/" class="dropdown-item">midgard.gnss</a>
 </li>
                                     
-<li >
-    <a href="../midgard-ionosphere/">midgard.ionosphere</a>
+<li>
+    <a href="../midgard-ionosphere/" class="dropdown-item">midgard.ionosphere</a>
 </li>
                                     
-<li >
-    <a href="../midgard-math/">midgard.math</a>
+<li>
+    <a href="../midgard-math/" class="dropdown-item">midgard.math</a>
 </li>
                                     
-<li >
-    <a href="../midgard-parsers/">midgard.parsers</a>
+<li>
+    <a href="../midgard-parsers/" class="dropdown-item">midgard.parsers</a>
 </li>
                                     
-<li >
-    <a href="../midgard-plot/">midgard.plot</a>
+<li>
+    <a href="../midgard-plot/" class="dropdown-item">midgard.plot</a>
 </li>
                                     
-<li >
-    <a href="../midgard-site_info/">midgard.site_info</a>
+<li>
+    <a href="../midgard-site_info/" class="dropdown-item">midgard.site_info</a>
 </li>
                                     
-<li >
-    <a href="../midgard-writers/">midgard.writers</a>
+<li>
+    <a href="../midgard-writers/" class="dropdown-item">midgard.writers</a>
 </li>
                                 </ul>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="../midgard/">
+                            <li class="nav-item">
+                                <a rel="prev" href="../midgard/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../midgard-config/">
+                            <li class="nav-item">
+                                <a rel="next" href="../midgard-config/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -139,13 +126,30 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#midgardcollections">midgard.collections</a></li>
-            <li><a href="#midgardcollectionsenums">midgard.collections.enums</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#midgardcollections" class="nav-link">midgard.collections</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#midgardcollectionsenums" class="nav-link">midgard.collections.enums</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="midgardcollections">midgard.collections</h1>
 <h2 id="midgardcollectionsenums">midgard.collections.enums</h2>
@@ -186,6 +190,10 @@ enums.gnss_freq_G.L1 * 2
 <p>Full name: <code>midgard.collections.enums.BeidouFrequency</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>BeiDou frequencies in Hz</p>
+<h3 id="exitstatus"><strong>ExitStatus</strong></h3>
+<p>Full name: <code>midgard.collections.enums.ExitStatus</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>Exit status definition</p>
 <h3 id="gpsfrequency"><strong>GPSFrequency</strong></h3>
 <p>Full name: <code>midgard.collections.enums.GPSFrequency</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
@@ -202,10 +210,22 @@ enums.gnss_freq_G.L1 * 2
 <p>Full name: <code>midgard.collections.enums.GlonassFreqNum2Freq</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>An enumeration.</p>
+<h3 id="gnss3digitidtoid"><strong>Gnss3DigitIdToId</strong></h3>
+<p>Full name: <code>midgard.collections.enums.Gnss3DigitIdToId</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS 3-digit identifier to RINEX GNSS identifier</p>
+<h3 id="gnssidto3digitid"><strong>GnssIdTo3DigitId</strong></h3>
+<p>Full name: <code>midgard.collections.enums.GnssIdTo3DigitId</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS RINEX identifier to GNSS 3-digit identifier</p>
 <h3 id="gnssidtoname"><strong>GnssIdToName</strong></h3>
 <p>Full name: <code>midgard.collections.enums.GnssIdToName</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>RINEX GNSS identifier to GNSS name</p>
+<h3 id="gnssidtoreferencesystem"><strong>GnssIdToReferenceSystem</strong></h3>
+<p>Full name: <code>midgard.collections.enums.GnssIdToReferenceSystem</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS RINEX identifier to relevant GNSS reference system name</p>
 <h3 id="gnssnametoid"><strong>GnssNameToId</strong></h3>
 <p>Full name: <code>midgard.collections.enums.GnssNameToId</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
@@ -260,9 +280,13 @@ enums.gnss_freq_G.L1 * 2
 <p>Return a list of available enums</p>
 <p><strong>Returns:</strong></p>
 <p>Names of available enums.</p>
+<h3 id="exit_status"><strong>exit_status</strong></h3>
+<p>Full name: <code>midgard.collections.enums.exit_status</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>Exit status definition</p>
 <h3 id="get_enum"><strong>get_enum</strong>()</h3>
 <p>Full name: <code>midgard.collections.enums.get_enum</code></p>
-<p>Signature: <code>(name:str) -&gt; enum.EnumMeta</code></p>
+<p>Signature: <code>(name: str) -&gt; enum.EnumMeta</code></p>
 <p>Return a named Enumeration</p>
 <p>Names are defined by the @register_enum-decorator. If the name-parameter is not a valid enum, the function will
 raise an UnknownEnumError and list the available enumerations.</p>
@@ -274,7 +298,7 @@ raise an UnknownEnumError and list the available enumerations.</p>
 <p>Enumeration with the given name.</p>
 <h3 id="get_value"><strong>get_value</strong>()</h3>
 <p>Full name: <code>midgard.collections.enums.get_value</code></p>
-<p>Signature: <code>(name:str, value:str, default:Any=&lt;class 'midgard.collections.enums.NotGiven'&gt;) -&gt; enum.Enum</code></p>
+<p>Signature: <code>(name: str, value: str, default: Any = &lt;class 'midgard.collections.enums.NotGiven'&gt;) -&gt; enum.Enum</code></p>
 <p>Return the value of a named Enumeration</p>
 <p>Names are defined by the @register_enum-decorator.</p>
 <p><strong>Args:</strong></p>
@@ -285,6 +309,10 @@ raise an UnknownEnumError and list the available enumerations.</p>
 </ul>
 <p><strong>Returns:</strong></p>
 <p>Value of enumeration with the given name.</p>
+<h3 id="gnss_3digit_id_to_id"><strong>gnss_3digit_id_to_id</strong></h3>
+<p>Full name: <code>midgard.collections.enums.gnss_3digit_id_to_id</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS 3-digit identifier to RINEX GNSS identifier</p>
 <h3 id="gnss_freq_c"><strong>gnss_freq_C</strong></h3>
 <p>Full name: <code>midgard.collections.enums.gnss_freq_C</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
@@ -309,10 +337,18 @@ raise an UnknownEnumError and list the available enumerations.</p>
 <p>Full name: <code>midgard.collections.enums.gnss_freq_S</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>SBAS frequencies in Hz</p>
+<h3 id="gnss_id_to_3digit_id"><strong>gnss_id_to_3digit_id</strong></h3>
+<p>Full name: <code>midgard.collections.enums.gnss_id_to_3digit_id</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS RINEX identifier to GNSS 3-digit identifier</p>
 <h3 id="gnss_id_to_name"><strong>gnss_id_to_name</strong></h3>
 <p>Full name: <code>midgard.collections.enums.gnss_id_to_name</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>RINEX GNSS identifier to GNSS name</p>
+<h3 id="gnss_id_to_reference_system"><strong>gnss_id_to_reference_system</strong></h3>
+<p>Full name: <code>midgard.collections.enums.gnss_id_to_reference_system</code></p>
+<p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
+<p>RINEX GNSS RINEX identifier to relevant GNSS reference system name</p>
 <h3 id="gnss_name_to_id"><strong>gnss_name_to_id</strong></h3>
 <p>Full name: <code>midgard.collections.enums.gnss_name_to_id</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
@@ -347,7 +383,7 @@ raise an UnknownEnumError and list the available enumerations.</p>
 <p>An enumeration.</p>
 <h3 id="has_value"><strong>has_value</strong>()</h3>
 <p>Full name: <code>midgard.collections.enums.has_value</code></p>
-<p>Signature: <code>(name:str, value:str) -&gt; bool</code></p>
+<p>Signature: <code>(name: str, value: str) -&gt; bool</code></p>
 <p>Check whether a named Enumeration defines a given value</p>
 <p><strong>Args:</strong></p>
 <ul>
@@ -366,7 +402,7 @@ raise an UnknownEnumError and list the available enumerations.</p>
 <p>Levels used when deciding how much log output to show</p>
 <h3 id="register_enum"><strong>register_enum</strong>()</h3>
 <p>Full name: <code>midgard.collections.enums.register_enum</code></p>
-<p>Signature: <code>(name:str) -&gt; Callable[[enum.EnumMeta], enum.EnumMeta]</code></p>
+<p>Signature: <code>(name: str) -&gt; Callable[[enum.EnumMeta], enum.EnumMeta]</code></p>
 <p>Register a named Enumeration</p>
 <p>This allows for getting Enumerations with the get_enum-function.</p>
 <p><strong>Args:</strong></p>
@@ -379,6 +415,7 @@ raise an UnknownEnumError and list the available enumerations.</p>
 <p>Full name: <code>midgard.collections.enums.write_level</code></p>
 <p>Signature: <code>(value, names=None, *, module=None, qualname=None, type=None, start=1)</code></p>
 <p>Levels used when deciding which fields of a dataset and other information to write to disk</p></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -392,21 +429,21 @@ raise an UnknownEnumError and list the available enumerations.</p>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -415,12 +452,12 @@ raise an UnknownEnumError and list the available enumerations.</p>
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
